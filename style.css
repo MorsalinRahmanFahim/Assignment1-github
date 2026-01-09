@@ -4,9 +4,13 @@
   font-family: "inter";
   max-width:1600px ;}
 .container{
-padding: 0px 120px 120px 120px;
+padding: 0px 120px 0px 120px;
 max-width: 1600px;
+margin: 0 auto;
 }
+
+
+/* for buttons */
 
 .btn{
 padding: 12.5px 16px ;
@@ -84,7 +88,7 @@ cursor: pointer;
 
 
 
-
+/* header section  */
 header{
 padding-top: 16px;
 padding-bottom: 16px;
@@ -102,7 +106,7 @@ nav {
 }
 
 nav ul a:hover{
-    color:#006A50 ;
+    color:#ff0000 ;
     cursor:hand;
 }
 nav ul{
@@ -116,11 +120,11 @@ nav ul a{
   font-size: 16px;
   font-weight: 500;
 }
+/* Hero Banner Section  */
 
 .hero-section{
  background-image: url("./assets/hero-bg.png");
  max-width: 1600px;
- height: 674px;
  background-repeat: no-repeat;
  padding: 134px 120px 180px 120px ;
  margin-top: 0px;
@@ -153,3 +157,82 @@ margin-bottom: 16px;
 }
 
 
+/* card section  */
+
+.card-header{
+ margin-bottom: 44px;
+ height: 150px;
+ max-width: 1330px;
+ margin-top: 0 auto;
+justify-content: center;
+}
+.card-header h2{
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+ margin-bottom: 16px;
+ padding-top: 50px;
+ 
+
+}
+.card-header p{
+color: #627382;
+text-align: center;
+
+
+}
+
+
+.card-container{
+  display: flex;
+  justify-content: flex-start;
+  gap:24px;
+  text-align: center;
+
+}
+
+
+.cards{
+  height:280px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px #e2e2e2;
+  padding: 24px 24px 0px 24px;
+}
+.cards img{
+height: 32px;
+width: 32px;
+background-color: #F95555;
+background-size: cover;
+border-radius: 50%;
+padding: 15px;
+margin-top: 65px;
+margin-bottom: 16px;
+}
+.cards h3{
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.cards p{
+color: #627382;
+text-align: center;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+/* Big brain section  */
+
+.second-brain{
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+  gap: 64px;
+}
+.right-click{
+  display: flex;
+  justify-content:space-between;
+  gap:4px;
+}
